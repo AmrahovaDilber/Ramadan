@@ -1,0 +1,45 @@
+.listcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+.listitem {
+  width: calc(33.33% - 20px);
+}
+.listitem:hover {
+  transform: scale(1.1);
+  transition-duration: 1.2s;
+}
+
+.listitem p {
+  margin-bottom: 10px;
+  position: absolute;
+  background-color: #fff;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  padding: 7px;
+}
+
+.listitem img {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 950px) {
+  .listitem {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .listitem {
+    width: calc(100% - 20px);
+  }
+}

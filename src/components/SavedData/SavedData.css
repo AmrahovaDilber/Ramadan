@@ -1,0 +1,80 @@
+.savedData {
+  width: 900px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 450px;
+  margin-left: 30px;
+  box-shadow: 1px 9px 12px rgba(0, 0, 0, 0.1);
+}
+
+.savedData h2 {
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+}
+
+.savedData ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.savedData li {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+
+.savedData li:last-child {
+  margin-bottom: 0;
+}
+
+.savedData span {
+  color: #555;
+}
+
+.savedData strong {
+  font-weight: bold;
+  color: #222;
+}
+
+.savedData .date {
+  font-size: 20px;
+  color: #555;
+}
+
+@media only screen and (max-width: 680px) {
+  .savedData {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: auto;
+  }
+
+  .savedData li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 0;
+    border-right: 1px solid;
+  }
+
+  .savedData span {
+    margin-left: 10px;
+  }
+
+  .savedData ul {
+    display: flex;
+  }
+  .savedData strong {
+    margin-bottom: 15px;
+  }
+  .savedData h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,90 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../images/makkah2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.aboutcontainer {
+  display: flex;
+  background-color: #0007;
+  width: 100%;
+  min-height: 100vh;
+  gap: 70px;
+  padding: 20px;
+}
+
+.aboutleft {
+  width: 100%;
+  padding-top: 130px;
+  padding-left: 100px;
+}
+.hadith {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #0007;
+  color: #fff;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.aboutright {
+  padding-top: 30px;
+  width: 100%;
+}
+.day {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .aboutleft,
+  .aboutright {
+    width: 100%;
+  }
+  .aboutleft {
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+  .day {
+    font-size: 27px;
+  }
+  .hadith {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .aboutcontainer {
+    flex-direction: column;
+  }
+
+  .aboutleft,
+  .aboutright {
+    width: 100%;
+  }
+
+  .day {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  .aboutleft {
+    width: 100%;
+  }
+  .hadith {
+    font-size: 18px;
+  }
+}

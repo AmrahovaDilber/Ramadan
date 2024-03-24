@@ -1,0 +1,26 @@
+.quote {
+  padding: 20px;
+  border: 1px solid;
+  background-color: rgb(212, 207, 207);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+}
+.quote p {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.btn {
+  padding: 7px 15px;
+  cursor: pointer;
+  border: none;
+  background-color: #c98558;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+}

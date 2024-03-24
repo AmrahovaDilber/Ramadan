@@ -1,0 +1,33 @@
+.monthcontainer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+}
+.month {
+  background: linear-gradient(135deg, #1d707d, #a22769);
+  width: 100%;
+  min-height: 100vh;
+}
+.plannertitle {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  font-size:2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 680px) {
+  .monthcontainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .plannertitle {
+    padding: 10px 0;
+    font-size: 1.5rem;
+  }
+}
