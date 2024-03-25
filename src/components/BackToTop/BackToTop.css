@@ -24,17 +24,13 @@
 }
 
 @media screen and (max-width: 950px) {
-    .top{
-        width:40px;
-          bottom: 10px;
-  right: 10px;
-        height:40px;
-    }
-    .top-icon {
-  font-size: 20px;
- 
+  .top {
+    width: 40px;
+    bottom: 10px;
+    right: 10px;
+    height: 40px;
+  }
+  .top-icon {
+    font-size: 20px;
+  }
 }
-
-
-}
- 
