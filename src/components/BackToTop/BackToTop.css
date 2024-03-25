@@ -1,0 +1,40 @@
+.top {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2b97e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.top:hover {
+  background-color: #2980b9;
+}
+
+.top-icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+@media screen and (max-width: 950px) {
+    .top{
+        width:40px;
+          bottom: 10px;
+  right: 10px;
+        height:40px;
+    }
+    .top-icon {
+  font-size: 20px;
+ 
+}
+
+
+}
+ 

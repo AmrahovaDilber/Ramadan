@@ -7,6 +7,7 @@
   max-width: 1200px;
   position: relative;
   margin: auto;
+
 }
 .listitem {
   width: calc(33.33% - 20px);

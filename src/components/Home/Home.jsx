@@ -4,6 +4,7 @@ import "../Home/Home.css";
 import About from "../About/About";
 import MonthPlanner from "../MonthPlanner/MonthPlanner";
 import Navbar from "../Navbar/Navbar";
+import BackToTop from "../BackToTop/BackToTop";
 export default function Home() {
   return (
     <div className="home" id="home">
@@ -30,6 +31,7 @@ export default function Home() {
       </div>
       <About />
       <MonthPlanner />{" "}
+      <BackToTop></BackToTop>
     </div>
   );
 }
